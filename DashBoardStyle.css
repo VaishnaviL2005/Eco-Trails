@@ -1,0 +1,112 @@
+
+#dashboard{
+  background-color: white;
+}
+.UserProfile{
+  float: left;
+  margin-top: 15px ;
+  margin-left: 25px;
+  position: absolute;
+  border-radius: 50%;
+  border: 7px solid #0BE0D6;
+  
+}
+.Icon{
+  float: left;
+  margin-left: 50px;
+  position: absolute;
+  
+}
+.username {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  font-size: 50px;
+  letter-spacing: -0.02em;
+  font-family: var(--font-itim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 94px;
+  color: white;
+
+}
+.male-18yrs {
+  position: absolute;
+  top: 75px;
+  left: 102px;
+  color: white;
+  font-size: 25px;
+}
+.frame2{
+  width: auto;
+  height: 200px;
+  background-color: #054441;
+  border-radius: 30px;
+  border:1px solid black; margin:10px;
+  
+}
+.statistic{
+  float:left;
+  width: 48%;
+  height: 800px;
+  background-color: #054441;
+  border-radius: 30px;
+  border:1px solid black; margin:10px;
+}
+.connections{
+  float: right;
+  width: 48%;
+  height: 241px;
+  background-color: #054441;
+  border-radius: 30px;
+  border:1px solid black; margin:10px;
+}
+.notification{
+  float: right;
+  width: 48%;
+  height: 538px;
+  background-color: #054441;
+  border-radius: 30px;
+  border:1px solid black; margin:10px;
+}
+.p {
+  margin: 0;
+  color: white;
+  font-size: 35px;
+  margin-left: 25px;
+  margin-top: 5%;
+}
+
+.GroupIcon1{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 30px;
+}
+.GroupIcon2{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 30px;
+}
+.GroupIcon3{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 30px;
+}
+.GroupIcon4{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 30px;
+}
+.GroupIcon{
+  margin-top: 2%;
+  margin-left: 35%;
+  display: flex;
+  column-gap: 50px;
+  margin-right: 20px;
+}
