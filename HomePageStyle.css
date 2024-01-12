@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Century;
+}
+header{
+  background-image:url(./images/Backgrd.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right:105px;
+  font-size: 17px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+}
+ul li a:hover{
+  background-color: #054441;
+  color: white;
+  border-radius: 30px;
+}
+/*ul li.active a{
+  background-color: gray;
+  color: white;
+  border-radius: 30px;
+}*/
+.eco-trails,
+.welcome-to {
+  position: absolute;
+  top: 260px;
+  left: 890px;
+  font-size: 105px;
+  font-family: Rozha One;
+  color: #043735;
+}
+.welcome-to {
+  top: 200px;
+  left: 1035px;
+  font-size: 70px;
+  color: #023532;
+  display: inline-block;
+  width: 400px;
+  height: 75px;
+}
+.greener {
+  font-family: Kaushan Script;
+  color: #259637;
+}
+.sustainable-rides-for-container {
+  position: absolute;
+  top: 400px;
+  left: 886px;
+  font-size: 30px;
+  display: inline-block;
+  width: 650px;
+  height: 53.09px;
+  color: var(--color-black);
+  font-family: Rozha One;
+}
+.hop-on-board {
+  margin: 0;
+}
+.hop-on-board-container {
+  position: absolute;
+  top: 460px;
+  left: 545px;
+  font-size: 23.78px;
+  font-family: var(--font-adamina);
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+  width: 864.6px;
+  height: 97.16px;
+  transform: rotate(0.3deg);
+  transform-origin: 0 0;
+}
+.contact-us {
+  position: absolute;
+  top: 93%;
+  left: 78%;
+  background-color: #054441;
+  color: white;
+  font-family: var(--font-Libre);
+  padding: 5px 20px;
+  font-size: 25px;
+}
+.contact-icon{
+  position: absolute;
+  top: 93%;
+  left: 89%;
+  color: white;
+  font-family: var(--font-Libre);
+}
+.facebook-icon{
+  position: absolute;
+  top: 93%;
+  left: 92.5%;
+  color: white;
+  font-family: var(--font-Libre);
+}
+.insta-icon{
+  position: absolute;
+  top: 93%;
+  left: 96%;
+  color: white;
+  font-family: var(--font-Libre);
+}
