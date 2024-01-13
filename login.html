@@ -9,7 +9,8 @@
 
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: #08313a;
+;">
     <div class="desktop-2">
         <div class="rectangle-28"></div>
         <div class="welcome-back">Welcome Back</div>
@@ -37,7 +38,8 @@
             stroke="black"
           />
         </svg>
-        <div class="username">Username</div>
+        <div class="username"></div>
+        <input type="text" class="username-input" placeholder="Username">
         <svg
           class="vector"
           width="35"
@@ -66,7 +68,8 @@
             fill-opacity="0.48"
           />
         </svg>
-        <div class="password">Password</div>
+        <div class="password"></div>
+        <input type="password" class="password-input" placeholder="Password">
         <svg
           class="rectangle-16"
           width="449"
@@ -89,13 +92,16 @@
             stroke="#003331"
           />
         </svg>
-        <div class="login">LOGIN
-        </div>
-        <div class="forgot-password">Forgot Password?</div>
+        <div class="rectangle-16">
+          <button type="button">LOGIN</button>
+      </div>
+      <div class="forgot-password">
+        <button type="button">Forgot Password?</button>
+    </div>
         <div class="don-t-have-an-account-sign-up">
-          Don’t have an account? Sign Up
+          Don’t have an account?
+          <span class="sign-up-link" onclick="signUpClicked()">Sign Up</span>
         </div>
       </div>
 </body>
 </html>
-
