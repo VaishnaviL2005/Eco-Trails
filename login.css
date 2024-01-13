@@ -7,7 +7,7 @@
   width: 1440px;
   height: 1024px;
   left: 28px;
-  top: 5px;
+  top: px;
   position: relative;
   overflow: hidden;
 }
@@ -59,7 +59,7 @@
   top: 280px;
   overflow: visible;
 }
-.username {
+.username-input {
   color: rgba(0, 0, 0, 0.63);
   text-align: left;
   font-family: "Garamond", serif;
@@ -70,9 +70,9 @@
   top: 298px;
   width: 500px;
   height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  padding: 8px;
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px;
 }
 .vector {
   height: auto;
@@ -82,7 +82,7 @@
   width: 2.41%;
   bottom: 67.77%;
   top: 28.52%;
-  height: 3.71%;
+  height: 3.7%;
   overflow: visible;
 }
 .material-symbols-password {
@@ -93,7 +93,7 @@
   top: 429px;
   overflow: visible;
 }
-.password {
+.password-input {
   color: rgba(0, 0, 0, 0.57);
   text-align: left;
   font-family: "Garamond", serif;
@@ -104,10 +104,26 @@
   top: 441px;
   width: 496px;
   height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  padding: 8px;
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px;
 }
+.rectangle-16 button {
+  background-color: #08313a;
+  ; /* Choose your desired button color */
+  color: #ffffff;
+  border: none;
+  padding: 40px 188px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.rectangle-16 button:hover {
+  background-color: #0b4240; /* Choose your desired hover color */
+}
+
+/* Retain the existing styles for the .rectangle-16 class */
 .rectangle-16 {
   border-radius: 0px;
   width: 449px;
@@ -132,6 +148,22 @@
   align-items: center;
   justify-content: center;
 }
+/* Add styles for the Forgot Password button */
+.forgot-password button {
+  background-color: #08313a; /* Choose your desired button color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.forgot-password button:hover {
+  background-color: #0b4240; /* Choose your desired hover color */
+}
+
+/* Retain the existing styles for the .forgot-password class */
 .forgot-password {
   color: #ffffff;
   text-align: center;
@@ -161,4 +193,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.7; /* Optional: reduce opacity for a subtle effect */
+}
+.sign-up-link {
+  color: #08313a; /* Choose your desired link color */
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline; /* Add underline effect */
+}
+
+.sign-up-link:hover {
+  color: #003331; /* Choose your desired hover color */
+  text-decoration: none; /* Remove underline on hover */
 }
