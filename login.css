@@ -1,0 +1,164 @@
+.desktop-2,
+.desktop-2 * {
+  box-sizing: border-box;
+}
+.desktop-2 {
+  background: #08313a;
+  width: 1440px;
+  height: 1024px;
+  left: 28px;
+  top: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-28 {
+  background: #08746e;
+  border-radius: 50px;
+  width: 820px;
+  height: 920px;
+  position: absolute;
+  left: 310px;
+  top: 46px;
+}
+.welcome-back {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Garamond", serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 420px;
+  top: 27px;
+  width: 630px;
+  height: 194px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enter-your-credential-to-login {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 479px;
+  top: 146px;
+  width: 514px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-14 {
+  border-radius: 0px;
+  width: 598px;
+  height: 214px;
+  position: absolute;
+  left: 455px;
+  top: 280px;
+  overflow: visible;
+}
+.username {
+  color: rgba(0, 0, 0, 0.63);
+  text-align: left;
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 521px;
+  top: 298px;
+  width: 500px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 65.09%;
+  left: 32.5%;
+  width: 2.41%;
+  bottom: 67.77%;
+  top: 28.52%;
+  height: 3.71%;
+  overflow: visible;
+}
+.material-symbols-password {
+  width: 54px;
+  height: 55px;
+  position: absolute;
+  left: 470px;
+  top: 429px;
+  overflow: visible;
+}
+.password {
+  color: rgba(0, 0, 0, 0.57);
+  text-align: left;
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 543px;
+  top: 441px;
+  width: 496px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-16 {
+  border-radius: 0px;
+  width: 449px;
+  height: 93px;
+  position: absolute;
+  left: 521px;
+  top: 567px;
+  overflow: visible;
+}
+.login {
+  color: #d9d9d9;
+  text-align: center;
+  font-family: "Garamond", serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 497px;
+  top: 591px;
+  width: 491px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forgot-password {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 500px;
+  top: 699px;
+  width: 514px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.don-t-have-an-account-sign-up {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 504px;
+  top: 777px;
+  width: 514px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
