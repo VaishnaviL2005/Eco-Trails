@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    background-color: #08313A;
+}
+
+.box{
+    height: 90%;
+    width: 40%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #08746E;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+}
+
+h1, p, button, .input, .middle{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle{
+    width: 70%;
+    min-width: 250px;
+}
+
+input{
+    background-color: #9ADEDB;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 20%;
+    margin: 5px;
+    padding: 10px;
+    color: #08746E;
+}
+
+input::placeholder{
+    color: #08746E;
+}
+
+i{
+    color: #9ADEDB;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    padding: 10px;
+}
+
+button{
+    background-color: #003331;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+#google{
+    width: 200px;
+    height: 40px;
+    border: 3px solid #003331;
+    background-color: inherit;
+}
+
+#google:hover{
+    background-color: #003331;
+}
+
+a, b{
+    color: #08313A;
+    text-decoration: none;
+}
