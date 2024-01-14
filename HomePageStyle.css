@@ -119,3 +119,12 @@ ul li a:hover{
   color: white;
   font-family: var(--font-Libre);
 }
+
+.image-1-icon {
+  position: absolute;
+  top: 0;
+  left: -772px;
+  width: 1336px;
+  height: 1032px;
+  object-fit: cover;
+}
