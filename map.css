@@ -122,3 +122,19 @@ input[type=text] {
     justify-content: center;
     align-items: center;
 }
+
+/* Add a specific class to the button for the home page */
+.button-home {
+    background-color: inherit;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+.button-home:hover {
+    background-color: transparent; /* Set the background color to be transparent on hover */
+}
