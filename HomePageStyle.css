@@ -77,7 +77,7 @@ ul li a:hover{
 .hop-on-board-container {
   position: absolute;
   top: 460px;
-  left: 545px;
+  left: 600px;
   font-size: 23.78px;
   font-family: var(--font-adamina);
   color: var(--color-black);
