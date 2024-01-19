@@ -9,7 +9,6 @@
   position: absolute;
   border-radius: 50%;
   border: 7px solid #0BE0D6;
-  
 }
 .Icon{
   float: left;
@@ -78,6 +77,14 @@
   margin-left: 25px;
   margin-top: 5%;
 }
+.p1{
+  margin: 0;
+  color: white;
+  font-size: 28px;
+  margin-left: 25px;
+  margin-top: 5%;
+  float: left;
+}
 
 .GroupIcon1{
   width: 200px;
@@ -97,16 +104,90 @@
   background-color: white;
   border-radius: 30px;
 }
-.GroupIcon4{
-  width: 200px;
-  height: 150px;
-  background-color: white;
-  border-radius: 30px;
-}
 .GroupIcon{
-  margin-top: 2%;
-  margin-left: 35%;
+  margin-top: 1.8%;
+  margin-left: 37%;
   display: flex;
-  column-gap: 50px;
+  column-gap: 125px;
   margin-right: 20px;
+}
+.ConnectionsIcon{
+  margin-top: 1%;
+  margin-left: 2%;
+  display: flex;
+  column-gap: 150px;
+  margin-right: 20px;
+}
+.CIcon{
+  float: left;
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 1px ;
+  margin-left: 25px;
+  border-radius: 50%;
+  border: 7px solid #0BE0D6;
+}
+.frameThisMonth{
+  width: 50px;
+  height: 50px;
+  background-color: #0BE0D6;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 25px;
+  flex-shrink: 0;
+}
+.frameLastMonth{
+  width: 50px;
+  height: 50px;
+  background-color: #0A847F;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 40px;
+  flex-shrink: 0;
+}
+.NotifnIcon{
+  float: left;
+  margin-top: 15px ;
+  margin-left: 25px;
+  position: absolute;
+  border-radius: 35%;
+}
+.ConnectIcon{
+  float: left;
+  margin-top: 100px ;
+  margin-left: 25px;
+  position: absolute;
+  border-radius: 35%;
+
+}
+.updateIcon{
+  float: left;
+  margin-top: 185px ;
+  margin-left: 25px;
+  position: absolute;
+  border-radius: 35%;
+}
+.notify,
+.connect,
+.update{
+  position: absolute;
+  font-size: 50px;
+  letter-spacing: -0.02em;
+  width: 400px;
+  height: 33px;
+  flex-shrink: 0;
+  color: white;
+  margin-left: 10%;
+  text-align: left;
+  font-family: Itim;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.connect{
+  margin-top: 8%;
+}
+.update{
+  margin-top: 13%;
 }
