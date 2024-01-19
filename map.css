@@ -15,7 +15,22 @@ html, body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    display: flex;
+    flex-direction: row;
 }
+
+#homepage{
+    float: right;
+    margin: 10px;
+    background-color: #08313A;
+}
+
+.map{
+    width: 65%;
+    height: 100%;
+    float: right;
+}
+
 .sidebar{
     background: #08313A;
     width: 35%;
@@ -121,20 +136,4 @@ input[type=text] {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-/* Add a specific class to the button for the home page */
-.button-home {
-    background-color: inherit;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    outline: none;
-    cursor: pointer;
-    padding: 5px 5px;
-    transition: 0.5s;
-}
-
-.button-home:hover {
-    background-color: transparent; /* Set the background color to be transparent on hover */
 }
