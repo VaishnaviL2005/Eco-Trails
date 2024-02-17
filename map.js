@@ -66,3 +66,38 @@ try {
 } catch (error) {
 	console.error(error);
 }
+
+
+//openAPI2.0 js fetch
+const url = 'https://transloc-api-1-2.p.rapidapi.com/agencies.json?callback=call&geo_area=35.80176%2C-78.64347%7C35.78061%2C-78.68218&agencies=12';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'b2ef1b8e43msh0044b05bb6ed393p197169jsnc8cf84f09970',
+		'X-RapidAPI-Host': 'transloc-api-1-2.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}
+
+//openAPI2.0 jquery 
+const settings = {
+	async: true,
+	crossDomain: true,
+	url: 'https://transloc-api-1-2.p.rapidapi.com/agencies.json?callback=call&geo_area=35.80176%2C-78.64347%7C35.78061%2C-78.68218&agencies=12',
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'b2ef1b8e43msh0044b05bb6ed393p197169jsnc8cf84f09970',
+		'X-RapidAPI-Host': 'transloc-api-1-2.p.rapidapi.com'
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
